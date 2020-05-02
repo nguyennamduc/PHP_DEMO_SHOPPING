@@ -1,0 +1,20 @@
+
+<p align="center"><img src="images/gioithieu_shopping.jpg"></p>
+<section style="margin-left:8.5%; margin-right:8.5%">
+<b>SHOPPING GLOBAL.COM</b>  Hệ thống mua đồ online trên toàn thế giới.</br>
+<p>Ngồi ở nhà mua cả thế giới </p>
+<ol>
+   <li>Vận chuyển nhanh chóng</li>
+   <li>Gía rẻ</li>
+   <li>Bảo mật khách hàng</li>
+   <li>Ngồi online mua mọi thứ</li>
+</ol>
+<p>Liên hệ để được tư vấn </p>
+<p>
+Địa chỉ: Hồ Tùng Mậu Hà Nội<br>
+Điện thoại: 096 516 1199 - 096 516 1198 - Email: namducbg72bg@gmail.com<br>
+Website: <a href="http://shoppingglobal.com" >Shopping Global </a> - shoppingglobal.info - shoppingglobal.com - shoppingglobal.net
+</p>
+
+</section>
+

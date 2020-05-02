@@ -1,0 +1,41 @@
+#tabbed label.tabs {
+	background: #FE6F5E;
+	color: #fff;
+}
+#tabbed label.tabs:hover,
+#tabbed label.tabs:focus {
+	background: #d65445;
+}
+#tabbed .cell.table.first.blue {
+	background: #d65445;
+}
+#tabbed p.framed-quote {
+	background: #FE6F5E;
+	color: #fff;
+}
+#tabbed p.quote {
+	color: #d65445;
+}
+#tabbed p.framed-quote.arrow-left:before {
+	border-color: transparent #FE6F5E transparent transparent;
+}
+#tabbed .button.blue {
+	background: #FE6F5E;
+	color: #fff;
+}
+#tabbed .button.blue:hover {
+	background: #333;
+	color: #fff;
+}
+#tabbed .button.black:hover {
+	background: #777;
+}
+#tabbed .title.large {
+	color: #d65445;
+}
+#tabbed a {
+	color: #d65445;
+}
+#tabbed input.reset:hover {
+	color: #FE6F5E;
+}

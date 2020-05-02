@@ -1,0 +1,1 @@
+1|Banner 1|slideshow1.jpg|1/*2|Banner 2|slideshow2.png|1/*

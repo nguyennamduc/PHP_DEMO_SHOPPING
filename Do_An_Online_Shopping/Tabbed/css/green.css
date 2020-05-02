@@ -1,0 +1,42 @@
+#tabbed label.tabs {
+	color: #FFF;
+	background-color: #0C0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#tabbed label.tabs:hover,
+#tabbed label.tabs:focus {
+	background: #a0c549;
+}
+#tabbed .cell.table.first.blue {
+	background: #a0c549;
+}
+#tabbed p.framed-quote {
+	background: #bcdd6b;
+	color: #333;
+}
+#tabbed p.quote {
+	color: #a0c549;
+}
+#tabbed p.framed-quote.arrow-left:before {
+	border-color: transparent #bcdd6b transparent transparent;
+}
+#tabbed .button.blue {
+	background: #bcdd6b;
+	color: #333;
+}
+#tabbed .button.blue:hover {
+	background: #333;
+	color: #fff;
+}
+#tabbed .button.black:hover {
+	background: #777;
+}
+#tabbed .title.large {
+	color: #a0c549;
+}
+#tabbed a {
+	color: #a0c549;
+}
+#tabbed input.reset:hover {
+	color: #bcdd6b;
+}

@@ -1,0 +1,378 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: rgba(247, 247, 238, 0.952);
+}
+
+.tintuc {
+    width: auto;
+    margin: 10px;
+    clear: both;
+}
+
+.tintuc h1 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    margin: 0;
+}
+
+.chitiettintuc {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.chitiettintuc p {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.chitiettintuc h1 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #F5060A;
+    text-align: left;
+    margin: 0px;
+}
+
+.canhlechohinh {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+section.error {
+    background-color: #F80105;
+    color: #ECEAEA;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 50px;
+}
+
+.linkxanhdam a {
+    color: rgb(21, 199, 51);
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.linkxanhdam a:visited {
+    color: rgb(21, 199, 51);
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.linkxanhdam a:hover {
+    color: rgb(168, 15, 9);
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.welcome {
+    width: 99%;
+    height: 30px;
+    background-color: #ECEAEA;
+    line-height: 30px;
+    color: #F80105;
+    text-align: right;
+    padding-right: 1%;
+}
+
+.quickcart {
+    width: 99%;
+    height: 30px;
+    background-color: #ECEAEA;
+    line-height: 30px;
+    color: #F80105;
+    text-align: left;
+    padding-right: 1%;
+}
+
+.can_le {
+    float: left;
+    margin: 0 10px 10px 10px;
+}
+
+.detail_production {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.detail_production h1 {
+    margin: 5px;
+    font-size: 16px;
+    color: rgba(218, 14, 14, 0.788);
+    text-align: left;
+    ;
+}
+
+.wrapper_home {
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+    -webkit-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+    -moz-box-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    display: block;
+}
+
+.menungang {
+    width: 100%;
+    height: auto;
+}
+
+.slideshow {
+    width: 100%;
+    height: auto;
+}
+
+#nutmua {
+    width: 180px;
+    height: 46px;
+}
+
+.tinmoi {
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.content {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(206, 206, 203, 0.966);
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    line-height: 20px;
+    background-color: rgba(206, 216, 202, 0.924);
+}
+
+
+/* Định nghĩa cho smart phone  */
+
+@media only screen and (min-width:240px) and (max-width:319px) {
+    .tintuc img {
+        width: 94%;
+        height: auto;
+        float: none;
+        padding-left: 0px;
+    }
+    #nutmua {
+        width: 180px;
+        height: 46px;
+    }
+    .content img {
+        /* width: 100%; */
+        height: auto;
+    }
+    .wrapper_home {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+        -webkit-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+        -moz-box-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+    }
+    .banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .captions img {
+        width: 100%;
+        height: auto;
+    }
+    .detail_production {
+        text-align: center;
+    }
+    .detail_production #hinhsanpham {
+        float: none;
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+    .detail_production h1 {
+        text-align: center;
+    }
+    .tinmoi {
+        display: none;
+    }
+    .chitiettintuc img {
+        width: 95% !important;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:610px) {
+    .tintuc img {
+        width: 94%;
+        height: auto;
+        float: none;
+        padding-left: 0px;
+    }
+    #nutmua {
+        width: 180px;
+        height: 46px;
+    }
+    .content img {
+        /* width: 100%; */
+        height: auto;
+    }
+    .wrapper_home {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+        -webkit-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+        -moz-box-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+    }
+    .banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .captions img {
+        width: 100%;
+        height: auto;
+    }
+    .detail_production {
+        text-align: center;
+    }
+    .detail_production #hinhsanpham {
+        float: none;
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+    .detail_production h1 {
+        text-align: center;
+    }
+    .tinmoi {
+        display: none;
+    }
+    .chitiettintuc img {
+        width: 95% !important;
+    }
+}
+
+@media only screen and (min-width:611px) and (max-width:767 px) {
+    #nutmua {
+        width: 180px;
+        height: 46px;
+    }
+    .content img {
+        /* width: 100%; */
+        height: auto;
+    }
+    .wrapper_home {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+        -webkit-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+        -moz-box-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+    }
+    .banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .captions img {
+        width: 100%;
+        height: auto;
+    }
+    .detail_production {
+        text-align: center;
+    }
+    .detail_production #hinhsanpham {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+    .detail_production h1 {
+        text-align: center;
+    }
+    .tinmoi {
+        display: none;
+    }
+    .chitiettintuc img {
+        width: 95% !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .content img {
+        width: 100%;
+        height: auto;
+    }
+    #nutmua {
+        width: 180px;
+        height: 46px;
+    }
+    .wrapper_home {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+        -webkit-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+        -moz-box-box-shadow: 4px 4px 5px rgb(50, 50, 50, 0.45);
+    }
+    .banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .captions img {
+        width: 100%;
+        height: auto;
+    }
+    .detail_production {
+        text-align: center;
+    }
+    .detail_production #hinhsanpham {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+    .detail_production h1 {
+        text-align: center;
+    }
+    .tinmoi {
+        display: none;
+    }
+    .chitiettintuc img {
+        width: 95% !important;
+    }
+}
